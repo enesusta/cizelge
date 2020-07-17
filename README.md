@@ -52,6 +52,13 @@ const Cizelge = () => {
 export default Cizelge;
 ```
 
+
+<img src="https://raw.githubusercontent.com/enesusta/assets-host-for-github-pages/assets/cizelge/cizelge-line-chart.svg" height=340>
+
+The above picture helps to understand how to right use of props that LineChart has.
+
+
+
 ## License
 
 MIT © [Enes Usta](https://github.com/enesusta)
