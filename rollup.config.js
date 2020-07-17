@@ -33,9 +33,7 @@ export default {
             exclude: 'node_modules/**',
             babelHelpers: 'bundled'
         }),
-        commonjs({
-            include: ['node_modules/chart.js/**', 'node_modules/moment/**']
-        }),
+        commonjs(),
         resolve({
             extensions: ['.jsx', '.js'],
             preferBuiltins: false
@@ -43,5 +41,12 @@ export default {
         json({compact: true}),
         terser()
     ],
-    external: ['react', 'react-dom']
+    external: ['react', 'react-dom', 'chart.js']
 };
+
+/**
+ *
+ commonjs({
+            include: ['node_modules/chart.js/**', 'node_modules/moment/**']
+        }),
+ */

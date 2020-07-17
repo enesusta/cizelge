@@ -1,6 +1,6 @@
 {
   "name": "cizelge",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cizelge is React Component that wraps Chart.js",
   "author": "Enes Usta",
   "license": "MIT",
@@ -21,7 +21,8 @@
   },
   "peerDependencies": {
     "react": "^16.8.0",
-    "react-dom": "^16.8.0"
+    "react-dom": "^16.8.0",
+    "chart.js": "^2.9.3"
   },
   "devDependencies": {
     "@babel/core": "^7.10.4",
@@ -54,5 +55,11 @@
   },
   "files": [
     "dist"
+  ],
+  "keywords": [
+    "chart",
+    "chart-js",
+    "chart.js",
+    "cizelge"
   ]
 }
